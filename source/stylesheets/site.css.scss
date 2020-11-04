@@ -1,6 +1,4 @@
-@media print {
-  .zine {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-items: stretch;
-  }
+.zine {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: stretch;
 }
