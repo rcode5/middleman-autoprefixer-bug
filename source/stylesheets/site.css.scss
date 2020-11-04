@@ -1,23 +1,6 @@
 @media print {
   .zine {
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    grid-gap: 2px 2px;
-    background: lightgrey;
-    grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: stretch;
-    align-items: stretch;
-    * {
-      color: #fff;
-    }
-  }
-
-  /* support for 2 sheets */
-  @for $i from 1 through 8 {
-    .page-#{$i} {
-      grid-area: page-#{$i};
-    }
   }
 }
